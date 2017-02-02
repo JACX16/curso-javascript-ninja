@@ -20,7 +20,7 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-?function modifica(X){ X=5; return X='O valor da variável agora é'+X;}
+//function modifica(X){ X=5; return X='O valor da variável agora é'+X;}
 
 // Invoque a função criada acima.
 modifica(X);
