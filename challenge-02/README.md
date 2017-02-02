@@ -23,7 +23,7 @@ Onde VALOR é o novo valor da variável.
 //function modifica(X){ X=5; return X='O valor da variável agora é'+X;}
 
 // Invoque a função criada acima.
-modifica(X);
+//modifica(X);
 
 // Qual o retorno da função? (Use comentários de bloco).
 /* O valor da variávle agora é 5 */
@@ -40,7 +40,7 @@ return a*b*c+2;};
 } else{ return 'Valores não preenchidos corretamente!}
 }; */
 // Invoque a função criada acima, passando só dois números como argumento.
-calculo(1,2);
+//calculo(1,2);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // Valores não preenchidos corretamente.
