@@ -7,13 +7,13 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 function soma(1,2){ return a+b;};
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var resultado=soma(1,2)+5;
+//var resultado=soma(1,2)+5;
 
 // Qual o valor atualizado dessa variável?
-resultado; //8
+//resultado; //8
 
 // Declare uma nova variável, sem valor.
-var X;
+//var X;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
@@ -75,8 +75,7 @@ return (a+b)/c;
 } else { return null;}
 };
 */
-// Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-?
-`//calculofinal(1,2,3); //1
+// Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um //comentário de linha ao lado da função com o resultado de cada invocação.
+//calculofinal(1,2,3); //1
 //calculofinal(1,2); //3
 //calculofinal(2); //2
