@@ -58,6 +58,7 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano `false`.
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
+
 /*function calculofinal(a,b,c){
 var x;
 if(a!=NaN && b!=NaN && c!=NaN){
@@ -71,7 +72,10 @@ return a+b;
 return (a+b)/c;
 }
 } else { return null;}
-};*/
+};
+*/
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
-```
+`//calculofinal(1,2,3); //1
+//calculofinal(1,2); //3
+//calculofinal(2); //2
