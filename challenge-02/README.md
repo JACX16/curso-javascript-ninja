@@ -34,10 +34,11 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
+/*
 function calculo(a,b,c){ if(a!=undefinied && b!=undefinied && c!=undefinied){
 return a*b*c+2;};
 } else{ return 'Valores não preenchidos corretamente!}
-};
+}; */
 // Invoque a função criada acima, passando só dois números como argumento.
 calculo(1,2);
 
