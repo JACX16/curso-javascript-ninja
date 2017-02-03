@@ -162,9 +162,9 @@ correta, de acordo com os dados inseridos no objeto.
 pessoa.apresentacao=function(){
   var frase;
   if(pessoa.sexo==='M'){
-    frase=' Olá, eu sou o '+pessoa.nome+',';
+    frase=' Olá, eu sou o '+pessoa.nome+',';
     }else{
-      frase=' Olá, eu sou a '+pessoa.nome',';
+      frase=' Olá, eu sou a '+pessoa.nome+',';
       }
   if(pessoa.idade===1){
     frase+=' tenho '+pessoa.idade+' ano,';
@@ -172,9 +172,10 @@ pessoa.apresentacao=function(){
     frase+=' tenho '+pessoa.idade+' anos,';
     }
   if(pessoa.caminho===1){
-    frase+=' meu peso é '+pessoa.peso+' e só hoje, eu já caminhei '+pessoa.caminho+' metro.';
+    frase+=' meu peso é '+pessoa.peso+' Kg e só hoje, eu já caminhei '+pessoa.caminho+' metro.';
     }else{
-    frase+=' meu peso é '+pessoa.peso+' e, só hoje, eu já caminhei '+pesso.caminho+' metros.';
-    }
- }//fimfunction
+    frase+=' meu peso é '+pessoa.peso+' Kg e, só hoje, eu já caminhei '+pessoa.caminho+' metros.';
+    } 
+ return frase; 
+ };//endFunction
 */
